@@ -28,3 +28,22 @@ class Product:
 item=Product("バナナ",5)
 item.add_stock(5)
 item.show_stock()
+
+
+class TextEditor:
+    def to_upper(self,text):
+        return text.upper()
+    
+    def reverse_text(self,text):
+        return text[::-1]
+    
+editor=TextEditor()
+
+result1=editor.to_upper("Hello")
+print(result1)
+
+result2=editor.reverse_text("Hello")
+print(result2)
+
+
+    
