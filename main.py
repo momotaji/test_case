@@ -35,7 +35,8 @@ class TextEditor:
         return text.upper()
     
     def reverse_text(self,text):
-        return text[::-1]
+        result=text[::-1]
+        return result
     
 editor=TextEditor()
 
